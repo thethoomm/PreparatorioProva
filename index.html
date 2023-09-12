@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:5000/cadastrar.php" method="GET">
+        <label for="usuario_nome">Nome: </label>
+        <input type="text" placeholder="Ex: João" name="usuario_nome" id="usuario_nome" required maxlength="100" minlength="1">
+        <br>
+        <label for="usuario_id">ID: </label>
+        <input type="text" placeholder="Ex: 5F8a0h" name="usuario_id" id="usuario_id" required maxlength="10" minlength="1">
+        <br>
+        <label for="usuario_senha">Senha: </label>
+        <input type="password" placeholder="Digite sua senha" name="usuario_senha" id="usuario_senha" required>
+        <br>
+        <button type="submit" id="botaoCad">Cadastrar-se</button>
+    </form>
+</body>
+</html>
